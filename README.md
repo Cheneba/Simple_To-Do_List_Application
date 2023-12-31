@@ -1,48 +1,52 @@
-# Today I Learned for Programmers - Tiloid
+# Simple To-Do List
 
-![Tiloid Banner](path/to/banner/image.jpg)
+![To-Do List Banner](path/to/banner/image.jpg)
 
 ## Table of Contents
-- [Introduction](#introduction)
-- [Contributors](#contributors)
-- [Recent Posts](#recent-posts)
+- [Description](#description)
+- [Functional Requirements](#functional-requirements)
+- [Non-Functional Requirements](#non-functional-requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Introduction
-Welcome to Today I Learned (TIL) for Programmers - Tiloid! This repository is a collection of useful tips, tutorials, and insights shared by programmers from various backgrounds. Whether you're a beginner or an experienced developer, you'll find valuable information here to enhance your programming skills.
+## Description
+The Simple To-Do List is a beginner-level web application built using Node.js, Express.js, and jQuery. It provides users with a straightforward and intuitive interface to manage their daily tasks effectively. The application incorporates Object-Oriented Analysis and Design (OOAD) principles to ensure a well-structured and maintainable codebase.
 
-## Contributors
-Here are some of the contributors who have shared their knowledge on Tiloid:
+![To-Do List Screenshot](path/to/screenshot/image.jpg)
 
-1. [Naveen Sahu](#naveen-sahu)
-2. [Michael Fienen](#michael-fienen)
-3. [Girik A](#girik-a)
-4. [Alba Silvente Fuentes](#alba-silvente-fuentes)
-5. [Loiane Groner](#loiane-groner)
-6. [Ben Greenberg](#ben-greenberg)
-7. [Caio Teixeira](#caio-teixeira)
-8. [Kyle King](#kyle-king)
+## Functional Requirements
+1. User Registration: Allow users to create an account or register using their email and password.
+2. User Login: Provide a login mechanism for users to authenticate and access their to-do lists.
+3. Create Task: Allow users to add new tasks to their to-do list, including a title and optional description.
+4. Edit Task: Enable users to modify existing tasks by updating the title or description.
+5. Delete Task: Allow users to remove tasks from their to-do list.
+6. Mark Task as Complete: Provide an option for users to mark tasks as completed or incomplete.
+7. Task Filtering and Sorting: Allow users to filter and sort their to-do list based on various criteria, such as priority, due date, or completion status.
+8. User-Friendly Interface: Design a user-friendly interface that is intuitive and easy to navigate.
 
-## Recent Posts
-Here are some of the recent posts shared on Tiloid:
+## Non-Functional Requirements
+1. Security: Implement appropriate security measures to protect user data, such as encrypted passwords and secure session management.
+2. Performance: Ensure the application responds quickly and efficiently, even with a large number of tasks or users.
+3. Reliability: The application should be reliable and available for use, with minimal downtime or disruptions.
+4. Compatibility: Ensure the application works smoothly across different web browsers and devices.
+5. Accessibility: Design the application to be accessible to users with disabilities, adhering to accessibility standards.
+6. Scalability: The application should be designed to handle an increasing number of users and tasks without significant performance degradation.
+7. Error Handling: Implement proper error handling and provide informative error messages to users in case of any issues or failures.
 
-### [README.md: The Ultimate Guide](url-to-post)
-![README.md Post](path/to/readme-post.jpg)
-- **Author**: Naveen Sahu
-- **Published**: 1 year ago
-- **Discussion**: [Discuss](url-to-discussion)
+## Installation
+1. Clone the repository: `git clone https://github.com/your-username/simple-todo-list.git`
+2. Install dependencies: `npm install`
 
-In this comprehensive guide, Naveen Sahu explores the importance of the README.md file in open-source projects. Discover tips and best practices for creating effective documentation.
+## Usage
+1. Start the server: `npm start`
+2. Access the application in your browser at: `http://localhost:3000`
 
-### [Setting the Default Node Version using NVM](url-to-post)
-![NVM Post](path/to/nvm-post.jpg)
-- **Author**: Michael Fienen
-- **Published**: 4 months ago
-- **Discussion**: [Discuss](url-to-discussion)
+## Contributing
+Contributions are welcome! If you have any ideas, improvements, or bug fixes, please submit a pull request.
 
-Learn how to manage multiple Node.js versions using NVM. Michael Fienen provides step-by-step instructions for setting the default Node version on your system.
+## License
+This project is licensed under the [MIT License](LICENSE).
 
-<!-- Add more recent posts here -->
-
-Feel free to explore the repository and contribute your own TILs to share your programming knowledge with the community!
-
-![Tiloid Logo](path/to/tiloid-logo.jpg)
+![To-Do List Logo](path/to/logo/image.jpg)
